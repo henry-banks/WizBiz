@@ -3,9 +3,10 @@
 #pragma once
 
 #include "GameFramework/Actor.h"
+#include "SpellData.h"
 #include "Spell.generated.h"
 
-UCLASS()
+UCLASS(abstract)
 class WIZBIZ_API ASpell : public AActor
 {
 	GENERATED_BODY()

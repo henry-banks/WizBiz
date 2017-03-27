@@ -418,6 +418,7 @@
     <ClCompile Include="..\..\Source\WizBiz\Spell.cpp" />
     <ClCompile Include="..\..\Source\WizBiz\WizBiz.cpp" />
     <ClInclude Include="..\..\Source\WizBiz\Spell.h" />
+    <ClInclude Include="..\..\Source\WizBiz\SpellData.h" />
     <ClInclude Include="..\..\Source\WizBiz\WizBiz.h" />
     <ClCompile Include="..\..\Source\WizBiz\WizBizCharacter.cpp" />
     <ClInclude Include="..\..\Source\WizBiz\WizBizCharacter.h" />

@@ -69,6 +69,9 @@
     <ClInclude Include="..\..\Source\WizBiz\Spell.h">
       <Filter>Source\WizBiz</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\WizBiz\SpellData.h">
+      <Filter>Source\WizBiz</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\WizBiz\Spell.cpp">
