@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <None Include="..\..\WizBiz.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{3E3A3B70-F5D3-4738-9ECC-A039BF21C579}</UniqueIdentifier>
+      <UniqueIdentifier>{6262C21B-2876-4F19-8853-96BECC820828}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\WizBiz.Target.cs">
       <Filter>Source</Filter>
@@ -11,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{533D9480-AEE3-4109-891E-BD36BFE64F5E}</UniqueIdentifier>
+      <UniqueIdentifier>{5E9E1F92-334B-420A-B1EA-599AFF656F00}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\WizBiz">
-      <UniqueIdentifier>{0320E360-5B56-40BB-AB97-4B6A32F7B510}</UniqueIdentifier>
+      <UniqueIdentifier>{34BAFB63-D991-428B-BCAC-8E4BC73556C8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\WizBiz\WizBiz.Build.cs">
       <Filter>Source\WizBiz</Filter>
@@ -67,9 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Source\WizBiz\Spell.h">
-      <Filter>Source\WizBiz</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\WizBiz\SpellData.h">
       <Filter>Source\WizBiz</Filter>
     </ClInclude>
   </ItemGroup>

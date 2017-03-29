@@ -2,7 +2,7 @@
 	"TargetName" : "WizBizEditor",
 	"Platform" : "Win64",
 	"Configuration" : "Development",
-	"BuildId" : "5732846c-2f3f-42d9-ad46-4820a9cdb134",
+	"BuildId" : "590f7a30-747a-434b-9106-e1a030b1c44b",
 	"Version" : 
 	{
 		"MajorVersion" : 4,
@@ -17,15 +17,15 @@
 	"BuildProducts" :
 	[
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-WizBiz-5493.dll",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-WizBiz.dll",
 			"Type" : "DynamicLibrary"
 		},
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-WizBiz-5493.pdb",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-WizBiz.pdb",
 			"Type" : "SymbolFile"
 		},
 		{
-			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-WizBiz-5493.lib",
+			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-WizBiz.lib",
 			"Type" : "ImportLibrary"
 		},
 		{

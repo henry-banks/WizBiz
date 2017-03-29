@@ -2,27 +2,19 @@
 
 #pragma once
 
-#include "GameFramework/Actor.h"
-#include "SpellData.h"
+#include "UObject/NoExportTypes.h"
 #include "Spell.generated.h"
 
-UCLASS(abstract)
-class WIZBIZ_API ASpell : public AActor
+/**
+ * 
+ */
+UINTERFACE(BlueprintType)
+class WIZBIZ_API USpell : public UInterface
 {
 	GENERATED_BODY()
-	
-public:	
-	// Sets default values for this actor's properties
-	ASpell();
+};
 
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
-
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
-	
-	
+class WIZBIZ_API ISpell
+{
+	GENERATED_IINTERFACE_BODY()
 };
